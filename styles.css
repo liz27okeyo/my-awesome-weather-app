@@ -6,7 +6,7 @@
     color: hsl(0, 0%, 100%);
     width: 400px;
     height: 600px;
-    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);;
+    background: radial-gradient(circle at 10% 20%, rgb(5, 232, 186) 0%, rgb(8, 126, 225) 90%);
   }
   
   .header {
@@ -24,7 +24,7 @@
   
   .card {
     color: white;
-    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    background: radial-gradient(circle at 10% 20%, rgb(5, 232, 186) 0%, rgb(8, 126, 225) 90%);
   }
   
   p {
