@@ -6,7 +6,7 @@
     color: hsl(0, 0%, 100%);
     width: 400px;
     height: 600px;
-    background-color: blue;
+    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);;
   }
   
   .header {
@@ -24,7 +24,7 @@
   
   .card {
     color: white;
-    background-color: blue;
+    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
   }
   
   p {
