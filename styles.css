@@ -1,5 +1,5 @@
 .container {
-    margin: 60 px auto 5px;
+    margin: auto;
     position: relative;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 6px;
@@ -11,9 +11,12 @@
   
   .header {
     text-align: center;
-    font-size: 20px;
     background-color: rgb(92, 92, 243);
     display: block;
+    height: 48px;
+    font-weight: bold;
+    font-size: 35px;;
+    
   }
   
   li {
