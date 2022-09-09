@@ -12,9 +12,16 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
+
+
+
+
+
+
   
     <div class="container">
       <div class="header">Weather APP</div>
+    </br>
         <form id="search-form">
            <input 
           type="text"
@@ -23,37 +30,35 @@
            placeholder="Search for a city"
             id="search-text-input" />
 
-
             <input type="submit" value="Search"/>
             <button type="button" class="btn btn-success" id="current-location-button">current</button>
         </form>
              
 
-        <h1 id="city-name"></h1> 
+        <h1 id="city-name">SIAYA</h1> 
+      </br>
         <div>
-          <a data-="summaryTemperatureData"
-            <span class="currentTemperature" id="temperature"> 21</span>
-            <span class="units">
+          <a data-="summaryTemperatureData" class="currentTemperature" id="temperature">
+             21</a>
+        
+              <span class="units">
              <a href="#" id="celsius-link">°C</a> |
                <a href="#" id="fahrenheit-link">°F</a>
-                </span>
-              </a> 
+                </span></div>
+              
                   <h2>
                     <ul>
-                      <li><span id="description"> </span></li>
+                      <li><span id="description"> Cloudy</span></li>
                       <li>Humidity: <span id="humidity"> </span> %</li>
                       <li>Wind: <span id="wind"> </span> KMPH</li>
                     </ul>
                   </h2>  
                 </a>  
-                 
-                    </br>
-                    <div class="currentWeather"></div></br>
-                   
+                                                     
                     <hr/>
-                    <h2 id="currentDate"></h2>        
+                    <h3 id="currentDate"></h3>            
                   <hr/>    
-                
+                                        
             <div class="row">
               <div class="card">
                 <div class="row week-days">
@@ -112,23 +117,20 @@
 
                   <div class="col">Sunday</div>
                   </div>
-                  <p class="footer">
-                    
-                    <a href="https://github.com/liz27okeyo/my-awesome-weather-app.git" target="_blank">
-                      Open-Source Code
-                    </a>
-                    Elizabeth Okeyo
-                  </p>
-                
-                   
-                    
+                     
       </div>
     </div>
+    <p class="footer">
+                    
+      <a href="https://github.com/liz27okeyo/my-awesome-weather-app.git" target="_blank">
+        Open-Source Code
+      </a>
+      Elizabeth Okeyo
+    </p>
   </div>
 
         <script src="index.js"></script> 
         
-          
               
             
 </body>
