@@ -12,14 +12,9 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
-
-
-
-
-
-
   
     <div class="container">
+      <div class="weather-app-wrapper">
       <div class="header">Weather APP</div>
     </br>
         <form id="search-form">
@@ -38,14 +33,16 @@
         <h1 id="city-name">SIAYA</h1> 
       </br>
         <div>
-          <a data-="summaryTemperatureData" class="currentTemperature" id="temperature">
-             21</a>
-        
-              <span class="units">
-             <a href="#" id="celsius-link">°C</a> |
-               <a href="#" id="fahrenheit-link">°F</a>
-                </span></div>
-              
+          <div class="d-flex weather-temperature">
+            <img src=" " alt="" id="icon" />
+            <strong id="temperature">21</strong>
+
+            <div>
+             
+              <span class="units"> °C</span>
+            </div>
+          </div>
+         
                   <h2>
                     <ul>
                       <li><span id="description"> Cloudy</span></li>
@@ -57,76 +54,21 @@
                                                      
                     <hr/>
                     <h3 id="currentDate"></h3>            
-                  <hr/>    
-                                        
-            <div class="row">
-              <div class="card">
-                <div class="row week-days">
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-sun week-icon monday"></i>
-                  </div>
-                  <div class="col">Monday</div>
-            
-                  <div class="w-100">
-                    <hr />
-                  </div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-sun week-icon tuesday"></i>
-                  </div>
-                  <div class="col">Tuesday</div>
-            
-                  <div class="w-100">
-                    <hr />
-                  </div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-sun week-icon wednesday"></i>
-                  </div>
-                  <div class="col">Wednesday</div>
-            
-                  <div class="w-100"><hr /></div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-sun week-icon thursday"></i>
-                  </div>
-                  <div class="col">Thursday</div>
-            
-                  <div class="w-100">
-                    <hr />
-                  </div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-sun week-icon friday"></i>
-                  </div>
-                  <div class="col">Friday</div>
-            
-                  <div class="w-100"><hr /></div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-cloud week-icon saturday"></i>
-                  </div>
-                  <div class="col">Saturday</div>
-            
-                  <div class="w-100"><hr /></div>
-                  <div class="col">21°C</div>
-                  <div class="col">
-                    <i class="fas fa-cloud week-icon sunday"></i>       
-                 </div>
-
-                  <div class="col">Sunday</div>
-                  </div>
+                                         
+           
                      
       </div>
-    </div>
-    <p class="footer">
+    </br>
+      <p class="footer">
                     
-      <a href="https://github.com/liz27okeyo/my-awesome-weather-app.git" target="_blank">
-        Open-Source Code
-      </a>
-      Elizabeth Okeyo
-    </p>
+        <a href="https://github.com/liz27okeyo/my-awesome-weather-app.git" target="_blank">
+        Open-sourced on GitHub and hosted on Netlify
+        </a>
+        Coded by Elizabeth Okeyo
+      </p>
+    </div>
+    </div>
+    
   </div>
 
         <script src="index.js"></script> 
