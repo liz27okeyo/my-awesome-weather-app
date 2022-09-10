@@ -8,7 +8,7 @@
     background: radial-gradient(circle at 10% 20%, rgb(5, 232, 186) 0%, rgb(8, 126, 225) 90%);
     padding: 10px;
     max-width: 600px;
-    max-height:380px;
+    max-height:400px;
   }
   
   .header {
@@ -63,20 +63,22 @@
 
   
   
-  .units {
-    color: rgb(27, 24, 24);
-   font-size: 30px;
+  .weather-temperature .units {
+    color: rgb(19, 18, 18);
+   position: relative;
+   font-size: 16px;
+   top: -4px;
+  
    
     
     
   }
-  .weather-temperature{
-    line-height: 62px;
-    display: flex;
-    margin-left:10px;
-    font-size: 30px;
-    align-items: center;
-    cursor: pointer;
+  .weather-temperature strong{
+    color: rgb(10, 10, 10);
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 1;
+    margin-left: 40px;
    
 
   }
